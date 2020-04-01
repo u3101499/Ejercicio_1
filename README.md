@@ -25,3 +25,9 @@ Alt-ESCALA
 ##PAISAJE_PANTALLAZO
 
 ![paisaje]( pantallazo_paisaje.jpg "ejemplo paisaje")
+
+##Lista Paisaje
+
+1. **Piedra**
+2. **Laguna**
+
