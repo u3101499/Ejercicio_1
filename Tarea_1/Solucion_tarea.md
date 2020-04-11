@@ -78,7 +78,7 @@ La zona de estudio se encuentra en la ciudad de Bogotá, por lo tanto el sistema
 
 **•	Shape de Localidades de Bogotá** 
 
-![pantallazo1](  https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/2.jpg "ejemplo pantallazo 1")
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/2.jpg "ejemplo pantallazo 1")
 
 
 
