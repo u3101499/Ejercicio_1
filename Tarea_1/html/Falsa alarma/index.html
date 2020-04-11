@@ -1,0 +1,670 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <style>
+        #map {
+            width: 1066px;
+            height: 579px;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/multi-style-layer.js"></script>
+        <script src="js/leaflet-svg-shape-markers.min.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/rbush.min.js"></script>
+        <script src="js/labelgun.min.js"></script>
+        <script src="js/labels.js"></script>
+        <script src="data/Localidades_Magna_c_1.js"></script>
+        <script src="data/Estaciones_bomberos1_2.js"></script>
+        <script src="data/Localidades_Falsa_3.js"></script>
+        <script>
+        var map = L.map('map', {
+            zoomControl:true, maxZoom:28, minZoom:1
+        }).fitBounds([[4.436813508440149,-74.42655539160225],[4.847208903960455,-73.67232398689175]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
+        var bounds_group = new L.featureGroup([]);
+        function setBounds() {
+        }
+        map.createPane('pane_OpenStreetMap_0');
+        map.getPane('pane_OpenStreetMap_0').style.zIndex = 400;
+        var layer_OpenStreetMap_0 = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            pane: 'pane_OpenStreetMap_0',
+            opacity: 1.0,
+            attribution: '',
+            minZoom: 1,
+            maxZoom: 28,
+            minNativeZoom: 0,
+            maxNativeZoom: 19
+        });
+        layer_OpenStreetMap_0;
+        map.addLayer(layer_OpenStreetMap_0);
+        function pop_Localidades_Magna_c_1(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">Nombre_de_</th>\
+                        <td>' + (feature.properties['Nombre_de_'] !== null ? autolinker.link(feature.properties['Nombre_de_'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Acto_admin</th>\
+                        <td>' + (feature.properties['Acto_admin'] !== null ? autolinker.link(feature.properties['Acto_admin'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Area_de_la</th>\
+                        <td>' + (feature.properties['Area_de_la'] !== null ? autolinker.link(feature.properties['Area_de_la'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Identifica</th>\
+                        <td>' + (feature.properties['Identifica'] !== null ? autolinker.link(feature.properties['Identifica'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_Localidades_Magna_c_1_0(feature) {
+            switch(String(feature.properties['Nombre_de_'])) {
+                case 'SUBA':
+                    return {
+                pane: 'pane_Localidades_Magna_c_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(202,0,32,0.7)',
+                interactive: false,
+            }
+                    break;
+                case 'KENNEDY':
+                    return {
+                pane: 'pane_Localidades_Magna_c_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(211,33,51,0.7)',
+                interactive: false,
+            }
+                    break;
+                case 'ENGATIVA':
+                    return {
+                pane: 'pane_Localidades_Magna_c_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(219,66,71,0.7)',
+                interactive: false,
+            }
+                    break;
+                case 'USAQUEN':
+                    return {
+                pane: 'pane_Localidades_Magna_c_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(228,99,91,0.7)',
+                interactive: false,
+            }
+                    break;
+                case 'BOSA':
+                    return {
+                pane: 'pane_Localidades_Magna_c_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(236,132,110,0.7)',
+                interactive: false,
+            }
+                    break;
+                case 'CIUDAD BOLIVAR':
+                    return {
+                pane: 'pane_Localidades_Magna_c_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(244,165,130,0.7)',
+                interactive: false,
+            }
+                    break;
+                case 'RAFAEL URIBE URIBE':
+                    return {
+                pane: 'pane_Localidades_Magna_c_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(247,183,155,0.7)',
+                interactive: false,
+            }
+                    break;
+                case 'USME':
+                    return {
+                pane: 'pane_Localidades_Magna_c_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(249,201,180,0.7)',
+                interactive: false,
+            }
+                    break;
+                case 'SAN CRISTOBAL':
+                    return {
+                pane: 'pane_Localidades_Magna_c_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(251,219,205,0.7)',
+                interactive: false,
+            }
+                    break;
+                case 'FONTIBON':
+                    return {
+                pane: 'pane_Localidades_Magna_c_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(253,237,230,0.7)',
+                interactive: false,
+            }
+                    break;
+                case 'CHAPINERO':
+                    return {
+                pane: 'pane_Localidades_Magna_c_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,255,255,0.7)',
+                interactive: false,
+            }
+                    break;
+                case 'SANTA FE':
+                    return {
+                pane: 'pane_Localidades_Magna_c_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(242,242,242,0.7)',
+                interactive: false,
+            }
+                    break;
+                case 'PUENTE ARANDA':
+                    return {
+                pane: 'pane_Localidades_Magna_c_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(228,228,228,0.7)',
+                interactive: false,
+            }
+                    break;
+                case 'TUNJUELITO':
+                    return {
+                pane: 'pane_Localidades_Magna_c_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(214,214,214,0.7)',
+                interactive: false,
+            }
+                    break;
+                case 'LOS MARTIRES':
+                    return {
+                pane: 'pane_Localidades_Magna_c_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(200,200,200,0.7)',
+                interactive: false,
+            }
+                    break;
+                case 'CANDELARIA':
+                    return {
+                pane: 'pane_Localidades_Magna_c_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(186,186,186,0.7)',
+                interactive: false,
+            }
+                    break;
+                case 'BARRIOS UNIDOS':
+                    return {
+                pane: 'pane_Localidades_Magna_c_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(162,162,162,0.7)',
+                interactive: false,
+            }
+                    break;
+                case 'TEUSAQUILLO':
+                    return {
+                pane: 'pane_Localidades_Magna_c_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(137,137,137,0.7)',
+                interactive: false,
+            }
+                    break;
+                case 'ANTONIO NARIÑO':
+                    return {
+                pane: 'pane_Localidades_Magna_c_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(113,113,113,0.7)',
+                interactive: false,
+            }
+                    break;
+                case 'SUMAPAZ':
+                    return {
+                pane: 'pane_Localidades_Magna_c_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(88,88,88,0.7)',
+                interactive: false,
+            }
+                    break;
+                default:
+                    return {
+                pane: 'pane_Localidades_Magna_c_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,0.7)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 4.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(64,64,64,0.7)',
+                interactive: false,
+            }
+                    break;
+            }
+        }
+        map.createPane('pane_Localidades_Magna_c_1');
+        map.getPane('pane_Localidades_Magna_c_1').style.zIndex = 401;
+        map.getPane('pane_Localidades_Magna_c_1').style['mix-blend-mode'] = 'normal';
+        var layer_Localidades_Magna_c_1 = new L.geoJson(json_Localidades_Magna_c_1, {
+            attribution: '',
+            interactive: false,
+            dataVar: 'json_Localidades_Magna_c_1',
+            layerName: 'layer_Localidades_Magna_c_1',
+            pane: 'pane_Localidades_Magna_c_1',
+            onEachFeature: pop_Localidades_Magna_c_1,
+            style: style_Localidades_Magna_c_1_0,
+        });
+        bounds_group.addLayer(layer_Localidades_Magna_c_1);
+        map.addLayer(layer_Localidades_Magna_c_1);
+        function pop_Estaciones_bomberos1_2(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">FID_</th>\
+                        <td>' + (feature.properties['FID_'] !== null ? autolinker.link(feature.properties['FID_'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Shape__</th>\
+                        <td>' + (feature.properties['Shape__'] !== null ? autolinker.link(feature.properties['Shape__'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">OBJECTID</th>\
+                        <td>' + (feature.properties['OBJECTID'] !== null ? autolinker.link(feature.properties['OBJECTID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">ESTACION</th>\
+                        <td>' + (feature.properties['ESTACION'] !== null ? autolinker.link(feature.properties['ESTACION'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">TIPO_ESTAC</th>\
+                        <td>' + (feature.properties['TIPO_ESTAC'] !== null ? autolinker.link(feature.properties['TIPO_ESTAC'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">DIRECCION</th>\
+                        <td>' + (feature.properties['DIRECCION'] !== null ? autolinker.link(feature.properties['DIRECCION'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">TELEFONO</th>\
+                        <td>' + (feature.properties['TELEFONO'] !== null ? autolinker.link(feature.properties['TELEFONO'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">DISTRITO</th>\
+                        <td>' + (feature.properties['DISTRITO'] !== null ? autolinker.link(feature.properties['DISTRITO'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">X_e</th>\
+                        <td>' + (feature.properties['X_e'] !== null ? autolinker.link(feature.properties['X_e'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">Y_n</th>\
+                        <td>' + (feature.properties['Y_n'] !== null ? autolinker.link(feature.properties['Y_n'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">N_Y_</th>\
+                        <td>' + (feature.properties['N_Y_'] !== null ? autolinker.link(feature.properties['N_Y_'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">E_X_</th>\
+                        <td>' + (feature.properties['E_X_'] !== null ? autolinker.link(feature.properties['E_X_'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">ID_ESTACIO</th>\
+                        <td>' + (feature.properties['ID_ESTACIO'] !== null ? autolinker.link(feature.properties['ID_ESTACIO'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_Estaciones_bomberos1_2_0() {
+            return {
+                pane: 'pane_Estaciones_bomberos1_2',
+                radius: 7.33334,
+                opacity: 1,
+                color: 'rgba(184,8,8,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(7,184,149,1.0)',
+                interactive: true,
+            }
+        }
+        function style_Estaciones_bomberos1_2_1() {
+            return {
+                pane: 'pane_Estaciones_bomberos1_2',
+                radius: 8.0,
+                opacity: 1,
+                color: 'rgba(255,0,0,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(7,184,149,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_Estaciones_bomberos1_2');
+        map.getPane('pane_Estaciones_bomberos1_2').style.zIndex = 402;
+        map.getPane('pane_Estaciones_bomberos1_2').style['mix-blend-mode'] = 'normal';
+        var layer_Estaciones_bomberos1_2 = new L.geoJson.multiStyle(json_Estaciones_bomberos1_2, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_Estaciones_bomberos1_2',
+            layerName: 'layer_Estaciones_bomberos1_2',
+            pane: 'pane_Estaciones_bomberos1_2',
+            onEachFeature: pop_Estaciones_bomberos1_2,
+            pointToLayers: [function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.shapeMarker(latlng, style_Estaciones_bomberos1_2_0(feature));
+            },function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.shapeMarker(latlng, style_Estaciones_bomberos1_2_1(feature));
+            },
+        ]});
+        bounds_group.addLayer(layer_Estaciones_bomberos1_2);
+        map.addLayer(layer_Estaciones_bomberos1_2);
+        function pop_Localidades_Falsa_3(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">OBJECTID</th>\
+                        <td>' + (feature.properties['OBJECTID'] !== null ? autolinker.link(feature.properties['OBJECTID'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">FECHA</th>\
+                        <td>' + (feature.properties['FECHA'] !== null ? autolinker.link(feature.properties['FECHA'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">ESTACIÓN</th>\
+                        <td>' + (feature.properties['ESTACIÓN'] !== null ? autolinker.link(feature.properties['ESTACIÓN'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">SERVICIO</th>\
+                        <td>' + (feature.properties['SERVICIO'] !== null ? autolinker.link(feature.properties['SERVICIO'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">CLASE_SERV</th>\
+                        <td>' + (feature.properties['CLASE_SERV'] !== null ? autolinker.link(feature.properties['CLASE_SERV'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">SUBCLASE_S</th>\
+                        <td>' + (feature.properties['SUBCLASE_S'] !== null ? autolinker.link(feature.properties['SUBCLASE_S'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">TIPO_SUBCL</th>\
+                        <td>' + (feature.properties['TIPO_SUBCL'] !== null ? autolinker.link(feature.properties['TIPO_SUBCL'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">USO_EDIFIC</th>\
+                        <td>' + (feature.properties['USO_EDIFIC'] !== null ? autolinker.link(feature.properties['USO_EDIFIC'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">CLASE_USO_</th>\
+                        <td>' + (feature.properties['CLASE_USO_'] !== null ? autolinker.link(feature.properties['CLASE_USO_'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">SUBCLASE_U</th>\
+                        <td>' + (feature.properties['SUBCLASE_U'] !== null ? autolinker.link(feature.properties['SUBCLASE_U'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">CLASE_VEHI</th>\
+                        <td>' + (feature.properties['CLASE_VEHI'] !== null ? autolinker.link(feature.properties['CLASE_VEHI'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">SUBCLASE_V</th>\
+                        <td>' + (feature.properties['SUBCLASE_V'] !== null ? autolinker.link(feature.properties['SUBCLASE_V'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">AREA_AFECT</th>\
+                        <td>' + (feature.properties['AREA_AFECT'] !== null ? autolinker.link(feature.properties['AREA_AFECT'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">AREA_EXPUE</th>\
+                        <td>' + (feature.properties['AREA_EXPUE'] !== null ? autolinker.link(feature.properties['AREA_EXPUE'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">ORIGEN_CAU</th>\
+                        <td>' + (feature.properties['ORIGEN_CAU'] !== null ? autolinker.link(feature.properties['ORIGEN_CAU'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">CAUSAS</th>\
+                        <td>' + (feature.properties['CAUSAS'] !== null ? autolinker.link(feature.properties['CAUSAS'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">CONTEO</th>\
+                        <td>' + (feature.properties['CONTEO'] !== null ? autolinker.link(feature.properties['CONTEO'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">LOCALIDAD</th>\
+                        <td>' + (feature.properties['LOCALIDAD'] !== null ? autolinker.link(feature.properties['LOCALIDAD'].toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            layer.bindPopup(popupContent, {maxHeight: 400});
+        }
+
+        function style_Localidades_Falsa_3_0() {
+            return {
+                pane: 'pane_Localidades_Falsa_3',
+                radius: 2.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(152,125,183,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_Localidades_Falsa_3');
+        map.getPane('pane_Localidades_Falsa_3').style.zIndex = 403;
+        map.getPane('pane_Localidades_Falsa_3').style['mix-blend-mode'] = 'normal';
+        var layer_Localidades_Falsa_3 = new L.geoJson(json_Localidades_Falsa_3, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_Localidades_Falsa_3',
+            layerName: 'layer_Localidades_Falsa_3',
+            pane: 'pane_Localidades_Falsa_3',
+            onEachFeature: pop_Localidades_Falsa_3,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_Localidades_Falsa_3_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_Localidades_Falsa_3);
+        map.addLayer(layer_Localidades_Falsa_3);
+        setBounds();
+        var i = 0;
+        layer_Localidades_Magna_c_1.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['Nombre_de_'] !== null?String('<div style="color: #000000; font-size: 10pt; font-family: \'MS Shell Dlg 2\', sans-serif;">' + layer.feature.properties['Nombre_de_']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_Localidades_Magna_c_1'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        resetLabels([layer_Localidades_Magna_c_1]);
+        map.on("zoomend", function(){
+            resetLabels([layer_Localidades_Magna_c_1]);
+        });
+        map.on("layeradd", function(){
+            resetLabels([layer_Localidades_Magna_c_1]);
+        });
+        map.on("layerremove", function(){
+            resetLabels([layer_Localidades_Magna_c_1]);
+        });
+        </script>
+    </body>
+</html>
