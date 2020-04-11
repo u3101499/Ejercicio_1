@@ -249,11 +249,16 @@ Y los archivos quedan cargados en el servidor, ahora procedemos a buscar la dire
 ![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/42.jpg "ejemplo pantallazo 1")
 
 
+**8.	Adicionar al repositorio github los archivos generados (ejm. html) en la subcarpeta Tarea_1/html/**
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/43.jpg "ejemplo pantallazo 1")
+
+
 **9.	Urls de los mapas publicados en la web**
 
-[https://u3101499.github.io/Ejercicio_1/Falsa_alarma/index.html#13/4.6369/-74.1138]
+[https://u3101499.github.io/Ejercicio_1/Falsa_alarma/index.html]
 
-[https://u3101499.github.io/Ejercicio_1/Incidentes/index.html#11/4.6719/-74.0492]
+[https://u3101499.github.io/Ejercicio_1/Incidentes/index.html]
 
 
 
@@ -275,7 +280,7 @@ Para los casos de los incidentes al ver que las distribuciones de los primeros l
 
 Como ventaja veo a Github como una herramienta sencilla para poder publicar mapas y otros archivos en la web, es cuestión de organizar nuestro mapa y de forma correcta subirlo a internet, y como desventaja encontre que ajustar los colores para dar a entender un mensaje no es facil ya que al tener muchas categorias se hace mas dificil asignar un valor sin que se parezca a otro.
 
-**Dificultades encontradas en el desarrollo del ejercicio"
+**Dificultades encontradas en el desarrollo del ejercicio** 
 
 Las principales dificultades se me presentaron en el manejo del software qgis, ya que no lo he manejado mucho y desconozco varias de sus herramientas por lo que opte por realizar varios procesos con Arcgis. 
 
