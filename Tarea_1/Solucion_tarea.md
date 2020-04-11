@@ -42,4 +42,7 @@ Se plantea como solución elaborar 2 shapes, que distribuyan los incidentes por 
 
 [https://bogota-laburbano.opendatasoft.com/explore/dataset/poligonos-localidades/export/?flg=es&location=10,4.47306,-74.05678&basemap=jawg.streets]
 
+**Título y descripción del conjunto de datos:**  Polígonos Localidades, describe los limites de las localidades y su distribución en la ciudad de Bogotá. 
+
+**Atributos para utilizar: **  Nombre de la localidad, área de la localidad 
 
