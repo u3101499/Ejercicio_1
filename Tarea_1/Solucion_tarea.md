@@ -167,5 +167,44 @@ Incidentes por localidad
  ![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/23.jpg "ejemplo pantallazo 1")
  
  
+ **6.	Descripción detallada de la metodología utilizada para generar los mapas (atributos seleccionadas, métodos de clasificación, colores, etc)**
  
+ Se va a generar un mapa de distribuciones, que permite evidenciar como se comporta un fenómeno puntual en un área determinada, en este caso la concentración de incidentes en un área específica, entre mayor numero de incidentes se presenten en una localidad mayor será su densidad. Según las tablas anteriores basadas en los atributos de servicio y conteo, se organizan las categorías de mayor a menor. Además de esto utilizamos un mapa base predeterminado de la herramienta qgis. 
+ 
+Para el caso de las falsas alarma, se opto por seleccionar una combinación de rojos y tonalidades grises, ya que el numero de falsas alarmas es menor que los de incidentes podemos utilizar esta tonalidad que es más suave, para representar menor concentración de datos, pero aun así sabiendo que la tonalidad mas oscura de rojo es la que representa la mayor concentración de falsas alarmas
 
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/24.jpg "ejemplo pantallazo 1")
+
+Utilizamos una trasparencia del 70% para observar donde se ubican las falsas alarmas.
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/25.jpg "ejemplo pantallazo 1")
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/26.jpg "ejemplo pantallazo 1")
+
+Para el caso de los incidentes atendidos, se presenta en una mayor cantidad así pues utilizamos una paleta de rojos que representan de mejor manera el mayor número de incidentes atendidos.
+
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/27.jpg "ejemplo pantallazo 1")
+
+Utilizamos una trasparencia del 80% para observar donde se ubican los incidentes.
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/28.jpg "ejemplo pantallazo 1")
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/29.jpg "ejemplo pantallazo 1")
+
+**7.	Descripción detallada del procedimiento técnico utilizado para generar los mapas (plugins, extensiones, procesos, transformaciones de datos, etc). Ejemplos de herramientas: Qgiscloud , leaflet, QGIS2Web , Github Pages, kepler.gl, flourish, etc.**
+
+Mediante el complemento QGIS2Web y la plataforma Github desktops y web, procedimos a generar los mapas web. Hacemos este procedimiento para ambos mapas
+
+Vamos a la opción web y buscamos el complemento QGIS2WEB
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/30.jpg "ejemplo pantallazo 1")
+
+Marcamos la opción leaflet, ajustamos la vista de los campos para que sean visibles y damos click en cargar vista previa, 
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/31.jpg "ejemplo pantallazo 1")
+
+Vamos a la pestaña exportar, y seleccionamos la ruta y ubicamos la carpeta relacionada con la plataforma Github y guardamos.
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/32.jpg "ejemplo pantallazo 1")
