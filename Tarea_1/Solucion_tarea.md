@@ -80,5 +80,7 @@ La zona de estudio se encuentra en la ciudad de Bogotá, por lo tanto el sistema
 
 ![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/2.jpg "ejemplo pantallazo 1")
 
+El shape de la distribución de localidades para la ciudad de Bogotá se descargó de la página bogota-laurbano.opendatasoft.com, el cual presenta como sistema de referencia el sistema WGS 1984, ya que vamos a trabajar con el sistema de referencia para la ciudad de Bogotá, fue necesario realizar la proyección del shape, utilizando la herramienta Project del software Arcgis, la cual permite establecer el nuevo sistema de referencia. 
 
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/3.jpg "ejemplo pantallazo 1")
 
