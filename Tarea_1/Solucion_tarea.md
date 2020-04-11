@@ -71,6 +71,14 @@ Se plantea como solución elaborar 2 shapes, que distribuyan los incidentes por 
 
 **Atributos para utilizar:** nombre estación, coordenada x , coordenada y
 
+**5.	Descripción detallada del procesamiento no trivial realizado a los datos (algoritmos, herramientas utilizadas, modelos, etc).**
+
+La zona de estudio se encuentra en la ciudad de Bogotá, por lo tanto el sistema de referencia que se va a utilizar es el Magna Colombia Bogotá, varios de los datos descargados no cuentan con este sistema por lo tanto fue necesario realizar la respectiva proyección, a continuación se describen todos los procesos que se le realizaron a los datos para poder ser utilizados y solucionar el problema planteado:
+
+
+**•	Shape de Localidades de Bogotá** 
+
+![pantallazo1](  https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/2.jpg "ejemplo pantallazo 1")
 
 
 
