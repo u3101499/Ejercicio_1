@@ -118,6 +118,20 @@ Se desea obtener los datos de las falsas alarmas, por lo tanto, se realiza una s
 
 ![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/11.jpg "ejemplo pantallazo 1")
 
+Generamos un shape nuevo y eliminamos de la capa de incidentes los reportes de falsas alarmas, así pues, tenemos dos archivos uno con la información de las falsas alarmas y otro con los incidentes reales atendidos.
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/12.jpg "ejemplo pantallazo 1")
+
+En la tabla de atributos se presentan las estaciones que atendieron cada incidente, pero no tenemos la distribución de los incidentes por localidad. Por lo tanto, es necesario cruzar ambos shapes para obtener este dato, para ambos shapes se utilizo el mismo procedimiento. 
+
+Se realiza un Split para separa el shape de localidades
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/13.jpg "ejemplo pantallazo 1")
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/14.jpg "ejemplo pantallazo 1")
+
+Al realizar el Split obtenemos 20 polígonos que representan el área de cada localidad, así pues podemos proceder a realizar el corte del shape de incidentes y de falsas alarmas por localidades con la herramienta clip de Arcgis, ya que son 20 polígonos se implementó un modelo para ejecutar la herramienta varias veces.
+
 
 
 
