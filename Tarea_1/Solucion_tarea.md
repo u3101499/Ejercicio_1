@@ -34,7 +34,7 @@ Se plantea como solución elaborar 2 shapes, que distribuyan los incidentes por 
 
 **4.	Listado detallado de las fuentes de datos seleccionadas. Mínimo 3 conjuntos de datos. Incluir información del proveedor de los datos, enlace para descarga, título y descripción del conjunto de datos, descripción de los atributos principales a utilizar.** 
 
-•	**Localidades: bogota-laurbano.opendatasoft.com **
+**•Localidades: bogota-laurbano.opendatasoft.com**
 
 **Información proveedor:** El objetivo principal de esta alianza, es establecer las bases y líneas de trabajo conjuntas para dar forma y crear un laboratorio urbano que se caracterice por ser un sitio abierto de interacción y trabajo colaborativo, en el que confluyan iniciativas en torno a la experimentación y el análisis interdisciplinar de los desafíos urbanos que enfrenta Bogotá, con el ánimo de generar soluciones innovadoras, aplicables y replicables.
 
