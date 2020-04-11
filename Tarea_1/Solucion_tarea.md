@@ -104,3 +104,20 @@ Las coordenadas que se presentan en el archivo son coordenadas planas que con cu
 **•Incidentes reportados por el departamento de Bomberos**
 
 Este archivo shape presenta un total de 5083 registros, en WGS84, como primera medida se realizo la transformación a Magna Colombia Bogotá por medio de Arcgis. 
+
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/8.jpg "ejemplo pantallazo 1")
+
+Al realizar la superposición de la capa incidentes con localidades, se observa que existen datos que no se encuentran dentro de la zona de estudio, estos se eliminan. 
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/9.jpg "ejemplo pantallazo 1")
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/10.jpg "ejemplo pantallazo 1")
+
+Se desea obtener los datos de las falsas alarmas, por lo tanto, se realiza una selección por atributos para la columna servicio, la categoría 21. Representa las falsas alarmas por lo tanto necesitamos generar un shape con estos datos.
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/11.jpg "ejemplo pantallazo 1")
+
+
+
+
