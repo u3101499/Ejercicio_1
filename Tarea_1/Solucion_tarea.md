@@ -146,5 +146,26 @@ Al realizar el Split obtenemos 20 polígonos que representan el área de cada lo
 ![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/18.jpg "ejemplo pantallazo 1")
 
 
+Para cada nuevo shape generado se le agregan dos columnas, una con el nombre de la localidad y otra con el carácter 1, que nos ayudara a realizar cálculos más adelante.
 
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/19.jpg "ejemplo pantallazo 1")
+
+Ya que tenemos los shapes divididos por localidad, procedemos a unificarlos nuevamente con la herramienta merge, y así obtenemos un shape de los incidentes distribuido por localidades. Esto se hace para ambas capas, y se obtiene la capa deseada.
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/20.jpg "ejemplo pantallazo 1")
+
+El software qgis nos permite manejar los datos y realizar cálculos o estadísticas mediante el pluging Group Stats.
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/21.jpg "ejemplo pantallazo 1")
+
+Allí podemos obtener la cantidad de incidentes y falsas alarmas por localidad.
+
+Incidentes por localidad 
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/22.jpg "ejemplo pantallazo 1") 
+                                         
+ Falsas Alarmas por localidad
+ ![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/23.jpg "ejemplo pantallazo 1")
+ 
+ 
+ 
 
