@@ -14,11 +14,11 @@
  
 ## Items
 
- 1. **Cual es el problema a tratar ?
+ 1. **Cual es el problema a tratar ?** 
 
 El departamento de bomberos de la ciudad de Bogotá desea conocer cuales son las localidades donde se presenta más incidentes para poder asignar más recursos económicos con el fin de adquirir equipos nuevos, por lo tanto, a partir del mes de julio del año 2019, empezaron a registrar las coordenadas del sitio a donde asistían, los datos se registraron hasta el mes de septiembre para completar la investigación. Se realizo la compilación de los datos y se obtuvo como resultado un shape que presenta las coordenadas del incidente y su descripción, todos los registros se clasificaron por categorías, a continuación, se presentan la categorización y el total de registros: 
 
-![tabla1]( https://github.com/u3101499/Ejercicio_1/tree/master/Tarea_1/Imagenes/1.jpg "ejemplo tabla servicios")
+![tabla1](  https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/1.jpg "ejemplo tabla servicios")
 
 
 La tabla muestra los datos organizados de acuerdo con el mayor número de atenciones presentadas, ya que las falsas alarmas son las que mayor número de registros presentan también quieren conocer cuales son las localidades que más falsas alarmas están reportando. 
