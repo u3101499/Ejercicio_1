@@ -93,7 +93,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(103,0,13,0.8)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'ENGATIVA':
@@ -108,7 +108,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(134,7,17,0.8)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'KENNEDY':
@@ -123,7 +123,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(165,15,21,0.8)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'USAQUEN':
@@ -138,7 +138,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(181,18,24,0.8)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'SAN CRISTOBAL':
@@ -153,7 +153,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(197,22,27,0.8)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'CIUDAD BOLIVAR':
@@ -168,7 +168,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(212,32,32,0.8)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'BOSA':
@@ -183,7 +183,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(226,45,38,0.8)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'FONTIBON':
@@ -198,7 +198,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(239,59,44,0.8)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'CHAPINERO':
@@ -213,7 +213,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(244,77,55,0.8)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'PUENTE ARANDA':
@@ -228,7 +228,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(249,95,67,0.8)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'TEUSAQUILLO':
@@ -243,7 +243,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(252,112,80,0.8)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'SANTA FE':
@@ -258,7 +258,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(252,128,95,0.8)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'RAFAEL URIBE URIBE':
@@ -273,7 +273,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(252,143,111,0.8)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'USME':
@@ -288,7 +288,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(252,159,128,0.8)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'LOS MARTIRES':
@@ -303,7 +303,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(252,175,147,0.8)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'BARRIOS UNIDOS':
@@ -318,7 +318,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(253,190,165,0.8)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'ANTONIO NARIÑO':
@@ -333,7 +333,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(253,204,184,0.8)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'TUNJUELITO':
@@ -348,7 +348,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(254,219,203,0.8)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'CANDELARIA':
@@ -363,7 +363,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(255,229,217,0.8)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 case 'SUMAPAZ':
@@ -378,7 +378,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(255,237,229,0.8)',
-                interactive: true,
+                interactive: false,
             }
                     break;
                 default:
@@ -393,7 +393,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(255,245,240,0.8)',
-                interactive: true,
+                interactive: false,
             }
                     break;
             }
@@ -403,7 +403,7 @@
         map.getPane('pane_Localidades_Magna_c_1').style['mix-blend-mode'] = 'normal';
         var layer_Localidades_Magna_c_1 = new L.geoJson(json_Localidades_Magna_c_1, {
             attribution: '',
-            interactive: true,
+            interactive: false,
             dataVar: 'json_Localidades_Magna_c_1',
             layerName: 'layer_Localidades_Magna_c_1',
             pane: 'pane_Localidades_Magna_c_1',
@@ -576,6 +576,7 @@
             style: style_Localidades_Magna_c_3_0,
         });
         bounds_group.addLayer(layer_Localidades_Magna_c_3);
+        map.addLayer(layer_Localidades_Magna_c_3);
         function pop_Estaciones_bomberos1_4(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
