@@ -132,6 +132,19 @@ Se realiza un Split para separa el shape de localidades
 
 Al realizar el Split obtenemos 20 polígonos que representan el área de cada localidad, así pues podemos proceder a realizar el corte del shape de incidentes y de falsas alarmas por localidades con la herramienta clip de Arcgis, ya que son 20 polígonos se implementó un modelo para ejecutar la herramienta varias veces.
 
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/15.jpg "ejemplo pantallazo 1")
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/16.jpg "ejemplo pantallazo 1")
+
+
+**Falsas Alarmas** 
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/17.jpg "ejemplo pantallazo 1")
+
+**Incidentes** 
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/18.jpg "ejemplo pantallazo 1")
+
 
 
 
