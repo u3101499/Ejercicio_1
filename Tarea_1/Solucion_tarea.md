@@ -24,7 +24,7 @@ El departamento de bomberos de la ciudad de Bogotá desea conocer cuales son las
 
 La tabla muestra los datos organizados de acuerdo con el mayor número de atenciones presentadas, ya que las falsas alarmas son las que mayor número de registros presentan también quieren conocer cuales son las localidades que más falsas alarmas están reportando. 
 
-**2.	Por qué los datos geográficos ayudan a resolverlo?
+2.	**Por qué los datos geográficos ayudan a resolverlo?**
 
 El departamento de bomberos tiene varias estaciones de atención distribuidas por toda la ciudad a las cuales se les asignan recursos económicos para su funcionamiento, por lo tanto se asigno una cantidad monetaria considerable para aquellas localidades donde se presenten mas incidentes, así pues todos los bomberos registraron la coordenada del sitio de atención, al tener este dato podemos cruzar la información con las áreas establecidas para las localidades y determinar en cual de estas se concentran mas los llamados para esta institución
 
@@ -34,7 +34,7 @@ Se plantea como solución elaborar 2 shapes, que distribuyan los incidentes por 
 
 **4.	Listado detallado de las fuentes de datos seleccionadas. Mínimo 3 conjuntos de datos. Incluir información del proveedor de los datos, enlace para descarga, título y descripción del conjunto de datos, descripción de los atributos principales a utilizar.** 
 
-**•	Localidades: bogota-laurbano.opendatasoft.com
+•	**Localidades: bogota-laurbano.opendatasoft.com **
 
 **Información proveedor:** El objetivo principal de esta alianza, es establecer las bases y líneas de trabajo conjuntas para dar forma y crear un laboratorio urbano que se caracterice por ser un sitio abierto de interacción y trabajo colaborativo, en el que confluyan iniciativas en torno a la experimentación y el análisis interdisciplinar de los desafíos urbanos que enfrenta Bogotá, con el ánimo de generar soluciones innovadoras, aplicables y replicables.
 
@@ -44,5 +44,5 @@ Se plantea como solución elaborar 2 shapes, que distribuyan los incidentes por 
 
 **Título y descripción del conjunto de datos:**  Polígonos Localidades, describe los limites de las localidades y su distribución en la ciudad de Bogotá. 
 
-**Atributos para utilizar: **  Nombre de la localidad, área de la localidad 
+**Atributos para utilizar:**  Nombre de la localidad, área de la localidad 
 
