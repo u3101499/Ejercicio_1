@@ -280,7 +280,7 @@ Para los casos de los incidentes al ver que las distribuciones de los primeros l
 
 Como ventaja veo a Github como una herramienta sencilla para poder publicar mapas y otros archivos en la web, es cuestión de organizar nuestro mapa y de forma correcta subirlo a internet, y como desventaja encontre que ajustar los colores para dar a entender un mensaje no es facil ya que al tener muchas categorias se hace mas dificil asignar un valor sin que se parezca a otro.
 
-**Dificultades encontradas en el desarrollo del ejercicio"
+**Dificultades encontradas en el desarrollo del ejercicio** 
 
 Las principales dificultades se me presentaron en el manejo del software qgis, ya que no lo he manejado mucho y desconozco varias de sus herramientas por lo que opte por realizar varios procesos con Arcgis. 
 
