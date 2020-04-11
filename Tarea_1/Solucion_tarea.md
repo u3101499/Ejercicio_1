@@ -249,11 +249,16 @@ Y los archivos quedan cargados en el servidor, ahora procedemos a buscar la dire
 ![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/42.jpg "ejemplo pantallazo 1")
 
 
+**8.	Adicionar al repositorio github los archivos generados (ejm. html) en la subcarpeta Tarea_1/html/**
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/43.jpg "ejemplo pantallazo 1")
+
+
 **9.	Urls de los mapas publicados en la web**
 
-[https://u3101499.github.io/Ejercicio_1/Falsa_alarma/index.html#13/4.6369/-74.1138]
+[https://u3101499.github.io/Ejercicio_1/Falsa_alarma/index.html]
 
-[https://u3101499.github.io/Ejercicio_1/Incidentes/index.html#11/4.6719/-74.0492]
+[https://u3101499.github.io/Ejercicio_1/Incidentes/index.html]
 
 
 
