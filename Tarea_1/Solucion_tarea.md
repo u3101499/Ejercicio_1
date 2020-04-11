@@ -148,7 +148,7 @@ Al realizar el Split obtenemos 20 polígonos que representan el área de cada lo
 
 Para cada nuevo shape generado se le agregan dos columnas, una con el nombre de la localidad y otra con el carácter 1, que nos ayudara a realizar cálculos más adelante.
 
-![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/19.jpg "ejemplo pantallazo 1")
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/19.jpg "ejemplo pantallazo 1") 
 
 Ya que tenemos los shapes divididos por localidad, procedemos a unificarlos nuevamente con la herramienta merge, y así obtenemos un shape de los incidentes distribuido por localidades. Esto se hace para ambas capas, y se obtiene la capa deseada.
 
