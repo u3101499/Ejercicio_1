@@ -84,3 +84,19 @@ El shape de la distribución de localidades para la ciudad de Bogotá se descarg
 
 ![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/3.jpg "ejemplo pantallazo 1")
 
+**•	Estaciones de bomberos**
+
+El archivo que se descargo de la pagina oficial de los bomberos se encuentra en formato Excel, por lo tanto, fue necesario realizar varios procesos para obtener su respectivo shape.
+
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/4.jpg "ejemplo pantallazo 1")
+
+Las coordenadas que se presentan en el archivo son coordenadas planas que con cumplen con la proyección de Magna Colombia Bogotá, asi pies utilizaremos el programa Magna Sirgas pro 4.0 para ajustar las coordenadas del archivo, que como resultado obtuvimos un archivo csv. Con las coordenadas de las estaciones de bomberos y el cual podemos utilizar para ubicarlas espacialmente con uno de los software , para este caso utilizamos qgis. Este procedimiento se realiza mediante la herramienta administrador de fuentes de datos por texto delimitado, allí se selecciona el sistema de referencia y se realizan el respectivo ajuste que solicita la herramienta, y como resultado tenemos las estaciones de Bomberos de la ciudad de Bogotá.
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/5.jpg "ejemplo pantallazo 1")
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/6.jpg "ejemplo pantallazo 1")
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/7.jpg "ejemplo pantallazo 1")
+
+
