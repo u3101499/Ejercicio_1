@@ -46,3 +46,31 @@ Se plantea como solución elaborar 2 shapes, que distribuyan los incidentes por 
 
 **Atributos para utilizar:**  Nombre de la localidad, área de la localidad 
 
+**•	Incidente atendido por Bomberos: datos abiertos Bogotá**
+
+**Información proveedor:**  la plataforma de Datos Abiertos de Bogotá busca promover la transparencia, el acceso a la información pública, la competitividad, el desarrollo económico, y la generación de impacto social a través de la apertura, la reutilización de los datos públicos, y el uso y apropiación de las TIC de acuerdo a la estrategia de Gobierno en Línea de Colombia. La iniciativa de Datos Abiertos busca que todas las entidades del sector público publiquen la información pertinente y de calidad en formatos estructurados a disposición de los usuarios para que ellos y las entidades la utilicen de diferentes maneras, según su interés: generar informes, reportes, estadísticas, investigaciones, control social, oportunidades de negocio (ej. aplicaciones), entre otros temas. Dicha información es compartida públicamente en formatos digitales estandarizados con una estructura de fácil comprensión para que la misma pueda ser utilizada por los ciudadanos. Dado que son financiados y recopilados con dinero público, la información contenida en estos datos es pública y debe estar a disposición de cualquier ciudadano y para cualquier fin.
+
+
+**Enlace de descarga:**
+
+[https://datosabiertos.bogota.gov.co/dataset/incidente-atendido-por-bomberos]
+
+**Título y descripción del conjunto de datos:**  Eventos que atiende la Unidad Administrativa Especial Cuerpo Oficial de Bomberos, relacionada con incendios, rescates, incidentes con materiales peligrosos y otras emergencias, que se presenten en el Distrito Capital.
+
+**Atributos para utilizar:**  Fecha, Estación, Servicio, coordenada x, coordenada y
+
+**•	Estaciones de bomberos Cuerpo de bomberos** 
+
+**Información proveedor:** UNIDAD ADMINISTRATIVA ESPECIAL CUERPO OFICIAL BOMBEROS DE BOGOTÁ
+
+**Enlace de descarga:** 
+
+[http://www.bomberosbogota.gov.co/transparencia/informacion-interes/publicacion/datos-abiertos/coordenadas-estaciones-bomberos]
+
+**Título y descripción del conjunto de datos:**   Coordenadas estaciones de bomberos, En este conjunto de datos podrán encontrar los teléfonos, direcciones y coordenadas de las Estaciones de Bomberos de Bogotá. 
+
+**Atributos para utilizar:** nombre estación, coordenada x , coordenada y
+
+
+
+
