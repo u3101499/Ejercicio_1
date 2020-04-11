@@ -258,7 +258,7 @@ Y los archivos quedan cargados en el servidor, ahora procedemos a buscar la dire
 
 [https://u3101499.github.io/Ejercicio_1/Falsa_alarma/index.html]
 
-[https://u3101499.github.io/Ejercicio_1/Incidentes/index.html]
+[https://u3101499.github.io/Ejercicio_1/Incidentes_Bomberos/index.html]
 
 
 
