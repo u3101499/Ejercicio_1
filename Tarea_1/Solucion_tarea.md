@@ -208,3 +208,74 @@ Marcamos la opción leaflet, ajustamos la vista de los campos para que sean visi
 Vamos a la pestaña exportar, y seleccionamos la ruta y ubicamos la carpeta relacionada con la plataforma Github y guardamos.
 
 ![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/32.jpg "ejemplo pantallazo 1")
+
+
+Luego damos click en exportar y el programa carga los archivos a la carpeta seleccionada
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/33.jpg "ejemplo pantallazo 1")
+
+Al cargar los archivos a la carpeta se actualiza en Github los archivos y es necesario cargarlos al servidor
+
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/34.jpg "ejemplo pantallazo 1")
+
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/35.jpg "ejemplo pantallazo 1")
+
+Luego damos click en push origin
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/36.jpg "ejemplo pantallazo 1")
+
+
+Y los archivos quedan cargados en el servidor, ahora procedemos a buscar la dirección web donde quedo publicado nuestro mapa.
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/37.jpg "ejemplo pantallazo 1")
+
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/38.jpg "ejemplo pantallazo 1")
+
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/39.jpg "ejemplo pantallazo 1")
+
+
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/40.jpg "ejemplo pantallazo 1")
+
+
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/41.jpg "ejemplo pantallazo 1")
+
+
+![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/42.jpg "ejemplo pantallazo 1")
+
+
+**9.	Urls de los mapas publicados en la web**
+
+[https://u3101499.github.io/Ejercicio_1/Falsa_alarma/index.html#13/4.6369/-74.1138]
+
+[https://u3101499.github.io/Ejercicio_1/Incidentes/index.html#11/4.6719/-74.0492]
+
+
+
+**10.	Conclusiones Ventajas / desventajas / dificultades encontradas durante el desarrollo del ejercicio**
+
+**Conclusiones:** 
+
+Para el mapa de falsas alarmas se evidencio que las localidades que mas presentan llamadas son SUBA, KENNEDY y ENGATIVA, por lo tanto para futuras llamadas en estas 3 localidad en caso de que se presente una falsa alarma se le impondar un comparendo al ciudadano, asi pues cuando se dirigan a estas localidades se debera llevar el respectivo formato. 
+
+Para los casos de los incidentes al ver que las distribuciones de los primeros lugares son similares, se opto por distribuir los recursos entre las 5 localidades que ocupan los primeros puesto por lo tanto las localidades serian:
+
+1. SUBA = 442
+2. ENGATIVA = 343
+3. USAQUEN = 331
+4. KENNEDY = 331
+5. SAN CRISTOBAL = 267
+
+**Ventajas y desventajas** 
+
+Como ventaja veo a Github como una herramienta sencilla para poder publicar mapas y otros archivos en la web, es cuestión de organizar nuestro mapa y de forma correcta subirlo a internet, y como desventaja encontre que ajustar los colores para dar a entender un mensaje no es facil ya que al tener muchas categorias se hace mas dificil asignar un valor sin que se parezca a otro.
+
+**Dificultades encontradas en el desarrollo del ejercicio"
+
+Las principales dificultades se me presentaron en el manejo del software qgis, ya que no lo he manejado mucho y desconozco varias de sus herramientas por lo que opte por realizar varios procesos con Arcgis. 
+
