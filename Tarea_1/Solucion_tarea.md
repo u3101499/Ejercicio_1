@@ -100,3 +100,7 @@ Las coordenadas que se presentan en el archivo son coordenadas planas que con cu
 ![pantallazo1](https://u3101499.github.io/Ejercicio_1/Tarea_1/Imagenes/7.jpg "ejemplo pantallazo 1")
 
 
+
+**•Incidentes reportados por el departamento de Bomberos**
+
+Este archivo shape presenta un total de 5083 registros, en WGS84, como primera medida se realizo la transformación a Magna Colombia Bogotá por medio de Arcgis. 
