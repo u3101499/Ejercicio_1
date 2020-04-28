@@ -174,13 +174,27 @@ Se selecciona el espacio de trabajo presente en postgis.
 
 ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/27.jpg)
 
-Se buscan las capas  cargadas con el prefijo ma_ y damos click en publicación
+Se edita la capa, se asigna un nombre y una descripción
 
 ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/28.jpg)
 
 Se buscan las capas  cargadas con el prefijo ma_ y damos click en publicación
 
 ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/28a.jpg)
+
+Damos click en guardar para cargar la capa a geoserver
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/29.jpg)
+
+**NOMBRE DE LAS CAPAS CARGADAS**
+
+**1.ma_canecas_clip**
+**2.ma_contenedores_clip**
+**3.ma_localidades_bogota**
+**4.ma_puntos_canecas**
+**5.ma_puntos_canecas_100**
+**6.ma_puntos_contenedores**
+**7.ma_puntos_contenedores_100**
 
 
 
