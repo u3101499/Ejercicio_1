@@ -168,6 +168,21 @@ Se selecciona el archivo a cargar, se re nombra utilizando el prefijo asignago (
 
 En la pagina del servidor , se busca la opcion capas, y alli se selecciona agregar nueva capa
 
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/25.jpg)
+
+Se selecciona el espacio de trabajo presente en postgis.
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/27.jpg)
+
+Se buscan las capas  cargadas con el prefijo ma_ y damos click en publicación
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/28.jpg)
+
+Se buscan las capas  cargadas con el prefijo ma_ y damos click en publicación
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/28a.jpg)
+
+
 
 
 
