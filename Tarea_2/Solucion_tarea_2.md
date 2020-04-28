@@ -43,5 +43,5 @@ o	Contenido: Enlace (URL) al archivo Readme.md dentro de la carpeta Tarea_2 publ
 
 ## Actividades
 
-1. Definición del problema* 
+* 1. Definición del problema * 
 
