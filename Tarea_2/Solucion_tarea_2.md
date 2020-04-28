@@ -59,7 +59,8 @@ Para el desarrollo del problema se cuentan con 3 capas de puntos, los puntos cr�
 
 **2. Fuentes de datos**
 
-|        Capa                                    |       Descripción                                                                     | ---------------------------------------------- |:-----------------------------------------------------------------------------------:| 
-|Puntos críticos de arrojo de residuos en Bogotá |   En el marco del Decreto 1077 de 2015, los puntos críticos son aquellos lugares donde se acumulan residuos sólidos, generando afectación y deterioro sanitario que conlleva la afectación de la limpieza del área, por la generación de malos olores, focos de propagación de vectores, y enfermedades, entre otros|
+Capa | Descripción | Link
+---|---|---
+**Puntos Críticos de arrojo clandestino de residuos en Bogotá**|En el marco del Decreto 1077 de 2015, los puntos críticos son aquellos lugares donde se acumulan residuos sólidos, generando afectación y deterioro sanitario que conlleva la afectación de la limpieza del área, por la generación de malos olores, focos de propagación de vectores, y enfermedades, entre otros| [https://datosabiertos.bogota.gov.co/dataset/puntos-criticos-de-arrojo-clandestino-de-residuos-bogota-d-c]
 
 
