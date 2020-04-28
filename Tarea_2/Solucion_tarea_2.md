@@ -57,5 +57,11 @@ Para el desarrollo del problema se cuentan con 3 capas de puntos, los puntos cr√
 
 ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/2.jpg)
 
+**2. Fuentes de datos **
 
+| Capa                 | Descripci√≥n   | Fuente          |
+| -------------------- |:-------------:| ---------------:|
+| Puntos criticos      | right-aligned | $1600           |
+| col 2 is             | centered      |   $12           |
+| zebra stripes        | are neat      |    $1           |
 
