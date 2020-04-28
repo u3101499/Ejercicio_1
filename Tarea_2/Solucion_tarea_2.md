@@ -99,5 +99,81 @@ Se realiza el corte para ajustarlo a la ciudad de Bogotá
 ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/9.jpg)
 
 
+Como se observa, cada punto crítico de acumulación de residuos cuenta con una zona.
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/10.jpg)
+
+Se realiza la superposición de las capas de contenedores y canecas, con los poligonos de Thiessen, y utilizando la herramienta spatial Join podemos determinar cuantos contenedores y canecas están presentes dentro de las zonas de puntos críticos, con estos datos se puede establecer que puntos críticos pudiero haber mejorado después de la instalación de los recipientes. 
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/11.jpg)
+
+El resultado es una capa donde se muestra la sumatoria de puntos en cada polígono de Thiessen. 
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/12.jpg)
+
+Esto nos permite clasificar y establecer rangos para determinar que polígonos tienen una mayor o menor concentración de recipientes, esto se puede representar con una buena simbología, donde se establecieron 6 clases que permiten identificar de manera sencilla las concentraciones mas altas y mas bajas de los recipientes en cada área. 
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/13.jpg)
+
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/14.jpg)
+
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/15.jpg)
+
+Ya determinadas las zonas donde se produce mayor concentración de contenedores, tenemos como alternativa también poder conocer cuál es la distancia del recipiente más cercano a cada punto crítico, para obtener otra perspectiva del problema. Por medio de la herramienta near. Esta herramienta busca los contenedores más cercanos y determina la distancia más cercana.
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/16.jpg)
+
+La herramienta adiciona una columna donde determina cual es el recipiente mas cercano a cada punto crítico. 
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/17.jpg)
+
+Según la literatura establecen que es necesario ubicar un contenedor de residuos a menos de 50 metros de los usuarios para que estos los utilicen de manera adecuada, por lo tanto, aquellos puntos críticos que presenten una distancia mayor a la establecida, sería necesario replantear la ubicación de los recipientes para poder dar solución a la acumulación de residuos o evaluar otras alternativas. 
+
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/18.jpg)
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/19.jpg)
+
+Ya que según la literatura se deberia instalar un contenedor de residuos solidos a 50m del usuario, se selecciono como resultado aquellos puntos que cumplen con esta condicion, y adicional se amplia el rango a 100m ya que se considera que esta distancia tambien es apta para que un usuario realice esta tarea sin restricción alguna, por medio de la herramienta select by atributte se buscan los puntos criticos que cumplan con la condicion de tener un contenedor o caneca a menos de 100 m, los demas son motivo de estudio, ya que se considera que un usuario no utulizaria un recipiente que le quede a mas de 100 m del sitio donde se encuentra.
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/20.jpg)
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/21.jpg)
+
+
+**CARGA DE DOCUMENTOS A POSTGIS**
+
+Utilizando el sotfware Qgis, se realizara el proceso de cargar los shapes a la base de datos establecida para la clase, este procedimiento se utilizo para todos los archivos.
+
+
+•	Se abre el menu base de datos, y  buscampos administrar bases de datos
+
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/22.jpg)
+
+
+Se busca la base de datos donde se va a cargar y se da click en importar
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/23.jpg)
+
+
+Se selecciona el archivo a cargar, se re nombra utilizando el prefijo asignago (ma_), se marcan las casillas correspondientes y se carga el archivo.
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/24.jpg)
+
+
+**CARGAR LOS DATOS A GEOSERVER**
+
+En la pagina del servidor , se busca la opcion capas, y alli se selecciona agregar nueva capa
+
+
+
+
+
+
+
+
 
 
