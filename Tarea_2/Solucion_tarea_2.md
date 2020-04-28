@@ -66,5 +66,14 @@ Capa | Descripción | Link
 **Caneca Bogotá**| Elemento dispositivo de aseo de alta resistencia al vandalismo para el almacenamiento de residuos producidos por los peatones o transeuntes en el espacio público. Su extensión geográfica es la zona urbana del Distrito Capital.| [https://datosabiertos.bogota.gov.co/dataset/caneca-bogota-d-c]
 **Localidad Bogotá**| División política, administrativa y territorial municipal, con competencias claras y criterios de financiación y aplicación de recursos, creada por el Concejo Municipal a iniciativa del alcalde respectivo, con el fin de atender de manera más eficaz las necesidades de esa porción del territorio.|[https://datosabiertos.bogota.gov.co/dataset/localidad-bogota-d-c]
 
+**3. Procesamiento de datos**
+
+**•	Descripción detallada del procesamiento realizado a los datos (algoritmos, herramientas utilizadas, modelos, etc)**
+
+**CAPAS DE PUNTOS**
+
+A las capas se les asigna el sistema de coordenadas, Magna Colombia Bogotá, por medio de la herramienta Project de Arcgis
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/3.jpg)
 
 
