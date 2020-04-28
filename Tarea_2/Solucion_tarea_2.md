@@ -55,4 +55,7 @@ Para el desarrollo del problema se cuentan con 3 capas de puntos, los puntos cr√
 
 ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/1.jpg)
 
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/2.jpg)
+
+
 
