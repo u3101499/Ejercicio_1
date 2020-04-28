@@ -82,5 +82,22 @@ Puntos Criticos | ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Ima
 Canecas | ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/5.jpg)
 Contenedores | ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/6.jpg)
 
+Se plantearon 2 soluciones distintas, la primera va asociada al uso de polígonos de thiessen, esta herramienta permite dividir el área cubierta por las entidades de puntos en zonas o proximales, estas zonas representan áreas completas donde cualquier ubicación dentro de la zona está más cerca de su punto de entrada asociado que de cualquier otro punto de entrada. Por lo tanto, se establecieron las zonas relacionadas a los puntos críticos, para determinar cuántas canecas y contenderos están presenten en estas áreas.
+
+Crear Polígonos con la herramienta create Thiessen polygon
+
+[alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/7.jpg)
+
+Generación de los polígonos
+
+[alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/8.jpg)
+
+
+Se realiza el corte para ajustarlo a la ciudad de Bogotá
+
+
+[alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/9.jpg)
+
+
 
 
