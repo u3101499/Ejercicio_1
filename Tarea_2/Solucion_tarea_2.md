@@ -47,6 +47,12 @@ o	Contenido: Enlace (URL) al archivo Readme.md dentro de la carpeta Tarea_2 publ
 
 **•	Describa un problema hipotético que pueda resolverse a través del análisis y visualización de datos espaciales.**
 
+La ciudad de Bogotá es uno de los más grandes generadores de residuos sólidos en Colombia, en el año 2018 se implementó un programa para la instalación de contenedores que pudieran solucionar el problema de acumulación de residuos en muchos barrios de la ciudad, fueron más de 10.000 los instalados. También se instalaron además de las ya existentes, canecas para que los transeúntes puedan disponer adecuadamente de sus residuos. Pero para el 31/05/2019 la unidad administrativa  especial de servicios públicos establecido 747 puntos críticos clandestinos de arrojo de basura a pesar de ya estar implementado el sistema de contenedores y canecas, adicional a  esto en el mes de septiembre de ese año (29/09/2019) la entidad publico las capa con la distribución de los contenedores, y el 31/01/2020 se publicó la capa actualizada de las canecas instaladas,  por lo tanto se desea conocer si la cantidad de canecas y contenedores tienen una adecuada distribución para cubrir todos los puntos críticos de las localidades de Bogotá.
 
+**•	Describa de forma general el enfoque propuesto para desarrollar el problema**
+
+Para el desarrollo del problema se cuentan con 3 capas de puntos, los puntos críticos de acumulación, las canecas y los contenedores. Para poder identificar las áreas o zonas donde tenemos puntos críticos sin la instalación de los recipientes se elaboraron una serie de capas donde se conocerá si la distribución de los contenedores y canecas si está cubriendo la totalidad de los puntos críticos de arrojo clandestino de residuos sólidos. Por medio del programa Qgis y su herramienta Group Stats, se establecieron cuantos puntos críticos se tienen por localidad, y cuantas canecas y recipientes existen.
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/1.jpg)
 
 
