@@ -86,17 +86,17 @@ Se plantearon 2 soluciones distintas, la primera va asociada al uso de polígono
 
 Crear Polígonos con la herramienta create Thiessen polygon
 
-[alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/7.jpg)
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/7.jpg)
 
 Generación de los polígonos
 
-[alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/8.jpg)
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/8.jpg)
 
 
 Se realiza el corte para ajustarlo a la ciudad de Bogotá
 
 
-[alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/9.jpg)
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/9.jpg)
 
 
 
