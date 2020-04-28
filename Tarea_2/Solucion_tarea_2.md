@@ -62,5 +62,9 @@ Para el desarrollo del problema se cuentan con 3 capas de puntos, los puntos cr�
 Capa | Descripción | Link
 ---|---|---
 **Puntos Críticos de arrojo clandestino de residuos en Bogotá**|En el marco del Decreto 1077 de 2015, los puntos críticos son aquellos lugares donde se acumulan residuos sólidos, generando afectación y deterioro sanitario que conlleva la afectación de la limpieza del área, por la generación de malos olores, focos de propagación de vectores, y enfermedades, entre otros| [https://datosabiertos.bogota.gov.co/dataset/puntos-criticos-de-arrojo-clandestino-de-residuos-bogota-d-c]
+**Contenerización Bogotá**|Sistema de disposición temporal de residuos para su recolección mecanizada a través del esquema de aseo del distrito; permite mejorar la presentación de los residuos, evitar la acumulación de estos y promueve el reciclaje. También evita que se formen puntos críticos que afectan y deterioran la armonía del espacio público urbano.| [https://datosabiertos.bogota.gov.co/dataset/contenerizacion-bogota-d-c]
+**Caneca Bogotá**| Elemento dispositivo de aseo de alta resistencia al vandalismo para el almacenamiento de residuos producidos por los peatones o transeuntes en el espacio público. Su extensión geográfica es la zona urbana del Distrito Capital.| [https://datosabiertos.bogota.gov.co/dataset/caneca-bogota-d-c]
+**Localidad Bogotá**| División política, administrativa y territorial municipal, con competencias claras y criterios de financiación y aplicación de recursos, creada por el Concejo Municipal a iniciativa del alcalde respectivo, con el fin de atender de manera más eficaz las necesidades de esa porción del territorio.|[https://datosabiertos.bogota.gov.co/dataset/localidad-bogota-d-c]
+
 
 
