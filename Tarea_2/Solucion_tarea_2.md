@@ -45,4 +45,8 @@ o	Contenido: Enlace (URL) al archivo Readme.md dentro de la carpeta Tarea_2 publ
 
 **1. Definición del problema**
 
+**•	Describa un problema hipotético que pueda resolverse a través del análisis y visualización de datos espaciales.**
+
+
+
 
