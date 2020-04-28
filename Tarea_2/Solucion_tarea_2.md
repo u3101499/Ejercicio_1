@@ -14,3 +14,27 @@
 
 •	Tanto para la creación de tablas en postgresql como para la creación de objetos en geoserver (capas, estilos) favor utilizar el prefijo asignado para la clase. Ejemplo: jc_departamentos.
 
+## Calificación 
+
+•	Total, de puntos obligatorios: 8
+
+•	Total, de opcionales para bono extra: 5
+
+•	Cada actividad tiene un valor de 1 punto si está completo y correcto.
+
+•	En caso de estar incompleta o incorrecta se otorgará 0 puntos.
+
+•	En caso de entregar tarde se le restará un punto.
+
+## Entrega de resultados para revisión:
+
+•	Deben publicarse en geoserver como mínimo 3 capas individuales
+
+•	Las capas publicadas deben agruparse bajo un grupo de capas (layer group)
+
+•	En el repositorio github personal creado para la clase crear una carpeta llamada Tarea_2
+
+•	Dentro de la carpeta Tarea_2 Crear un archivo Readme.md con los resultados de las actividades solicitadas.
+
+•	Una vez tenga los resultados publicados en github, crear un issue en [issue link](https://github.com/dersteppenwolf/cartografia_web/issues)
+
