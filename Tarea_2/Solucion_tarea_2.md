@@ -77,9 +77,10 @@ A las capas se les asigna el sistema de coordenadas, Magna Colombia Bogotá, por
 ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/3.jpg)
 
 Capa| Imagen
-Puntos Criticos|![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/4.jpg)
-Canecas| ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/5.jpg)
-Contenedores| ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/6.jpg)
+--- | ---
+Puntos Criticos | ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/4.jpg)
+Canecas | ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/5.jpg)
+Contenedores | ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/6.jpg)
 
 
 
