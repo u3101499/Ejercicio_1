@@ -57,11 +57,12 @@ Para el desarrollo del problema se cuentan con 3 capas de puntos, los puntos cr�
 
 ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/2.jpg)
 
-**2. Fuentes de datos **
+**2. Fuentes de datos**
 
-| Capa                 | Descripción   | Fuente          |
-| -------------------- |:-------------:| ---------------:|
-| Puntos criticos      | right-aligned | $1600           |
-| col 2 is             | centered      |   $12           |
-| zebra stripes        | are neat      |    $1           |
+| Capa                               | Descripción                               | Fuente                                |
+| -----------------------------------|:-----------------------------------------:| -------------------------------------:|
+| Puntos criticos de arrojo          |  En el marco del Decreto 1077 de 2015     | [https://datosabiertos.bogota.gov.co/dataset/puntos-criticos-de-arrojo-clandestino-de-residuos-bogota-d-c]                                      |
+| clandestino de residuos            |  los puntos críticos son aquellos lugares |                                       |                                       
 
+
+En el marco del Decreto 1077 de 2015, los puntos críticos son aquellos lugares donde se acumulan residuos sólidos, generando afectación y deterioro sanitario que conlleva la afectación de la limpieza del área, por la generación de malos olores, focos de propagación de vectores, y enfermedades, entre otros
