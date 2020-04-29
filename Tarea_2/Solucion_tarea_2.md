@@ -1316,6 +1316,53 @@ Ya que son capas completas , si ponemos todas las capas juntas en un solo archiv
 ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/11n.jpg)
 
 
+**5. RASTER**
+
+**Obtendrá un punto extra si publica una o más capas de tipo ráster adicionales a las vectoriales de los puntos 4, 5 y 6.**
+
+Los contenedores de residuos pueden ser la solución para reducir los puntos criticos de acumulación, por lo tanto se elaboro un mapa de densidades basado en las distancias de los contenedores a los puntos criticos.
+
+
+**•	Cargar imágenes ráster**
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/1r.jpg)
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/2r.jpg)
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/3r.jpg)
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/4r.jpg)
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/5r.jpg)
+
+
+
+**•	Publicar la o las capas utilizando simbología basada en SLD**
+
+La clasificación se realizo teniendo en cuenta las distancias del punto critico al contenedor, y se represento siendo la tonalidad verde con la menor distancia, y aumentando con la tonalidad roja hasta la mayor distancia.
+
+Generarmos la simbologia en qgis
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/9r.jpg)
+
+
+Guardamos la simbologia como un archivo SLD
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/10r.jpg)
+
+
+Le asignamos la simbologia al raster en geoserver
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/6r.jpg)
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/7r.jpg)
+
+
+**LEYENDA**
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/8r.jpg)
+
+
 
 
 
