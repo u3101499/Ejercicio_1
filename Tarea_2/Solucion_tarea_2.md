@@ -189,12 +189,61 @@ Damos click en guardar para cargar la capa a geoserver
 **NOMBRE DE LAS CAPAS CARGADAS**
 
 **1.ma_canecas_clip**
+
 **2.ma_contenedores_clip**
+
 **3.ma_localidades_bogota**
+
 **4.ma_puntos_canecas**
+
 **5.ma_puntos_canecas_100**
+
 **6.ma_puntos_contenedores**
+
 **7.ma_puntos_contenedores_100**
+
+
+**4. CAPA SIMBOLOGIA SLD**
+
+**•	Publicar una de las capas utilizando simbología basada en SLD**
+
+Con esta simbología se van a publicar las siguientes capas:
+
+o	Capa de puntos críticos con distancia mínima a una caneca
+
+o	Capa de puntos críticos con distancia mínima a un contenedor
+
+o	Capa de polígonos de los puntos críticos con las concentraciones de canecas
+
+o	Capa de polígonos de los puntos críticos con las concentraciones de contenedores.
+
+
+**•	Si utiliza QGIS para generar el SLD, favor mencionar brevemente el proceso realizado.**
+
+**Proceso capas de puntos**
+
+Para las dos capas de puntos que se implementa la simbología SLD, se utilizó el siguiente procedimiento:
+
+1. 1.	Se utilizo un estilo graduado con cuantiles iguales para clasificar la distancia de un recipiente al punto crítico de acumulación de residuos, el campo a clasificar será la distancia al recipiente más cercano.
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/30.jpg)
+
+2. 2.	Para clasificar los datos se tuvo en cuenta los valores máximos y mínimos, y además también se adecuo la categoría que cumple con las condiciones planteadas de que un recipiente que este a menos de 50m el cual es adecuado para que un usuario lo utilice sin restricción, también considerando que aquellos que estén a menos de 100 m pueden ser otra buena opción para los usuarios. 
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/31.jpg)
+
+3. 3.	Se utilizo una paleta de colores que alterna tonalidades verdes y rojas, las cuales permiten identificar que a mayor distancia estará asociado un color rojo, y que irá disminuyendo hasta llegar a una menor distancia con tonalidad verde.
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/32.jpg)
+
+4. Leyendas
+
+Capa | Leyenda y visualización
+--- | ---
+Puntos Canecas | ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/leyenda_puntos_canecas.jpg)
+Puntos Contenedores | ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/leyenda_puntos_contenedores.jpg)
+
+
 
 
 
