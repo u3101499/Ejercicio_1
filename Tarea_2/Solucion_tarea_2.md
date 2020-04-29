@@ -1159,8 +1159,20 @@ Adicionamos todas las capas que queremos adjuntar en nuetro grupo de capas
 ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/50.jpg)
 
 
+**Enlace del grupo de capas**
+
+[http://34.83.176.208:18080/geoserver/wms?service=WMS&version=1.1.0&request=GetMap&layers=ma_estudio_puntos_criticos_residuos&bbox=958587.2630515667%2C904328.769813754%2C1010108.8815953921%2C1026614.9533830815&width=330&height=768&srs=EPSG%3A3116&format=application/openlayers]
 
 
+**8.CONCLUSIONES**
+
+**•	Publicar un video en Loom [https://www.loom.com/] de mínimo 5 minutos y máximo 8 y adjuntar el url del mismo.
+
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/VIDEO.jpg)
+
+**Link del video**
+[https://www.loom.com/share/a0b28150ea384483b44562382994baba]
 
 
 
