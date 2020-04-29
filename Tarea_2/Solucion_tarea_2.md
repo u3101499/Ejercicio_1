@@ -1226,7 +1226,8 @@ feature-styles:
             shape: circle
             fill-color: '#084CCC'
             stroke-color: '#000000'
-     ```                 
+```                 
+
 
 **7. GRUPO CAPAS**
 
