@@ -1114,6 +1114,38 @@ Leyenda y pre visualización
 
 ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/leyenda_css.jpg)
 
+**Codigo CSS**
+```xml
+* {
+   mark: symbol(circle);
+   label: [dist_canec];
+   font-fill: black;
+   font-family: Arial;
+   font-size: 12;
+   font-weight: bold;
+   label-anchor: 0.5 0;
+   label-offset: 0 5;
+ }
+
+ :mark {
+   stroke: black;
+   stroke-width: 2px;
+   fill: green;
+ }
+
+ [@sd < 0.2M] {
+   mark-size: 12;
+ }
+
+ [@sd > 1.6M] [@sd < 32M] {
+   mark-size: 8;
+ }
+
+ [@sd > 3.2M] {
+   mark-size: 4;
+ }
+```
+
 
 **6. CAPA SIMBOLOGÍA YSLD**
 
@@ -1137,6 +1169,64 @@ Leyenda y previsualización
 
 
 ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/leyenda_ysld.jpg)
+
+**Codigo YSDLD**
+```xml
+title: 'distancia'
+feature-styles:
+- name: name
+  rules:
+  - name: Large
+    scale: [min,1.6e6]
+    symbolizers:
+    - point:
+        size: 12
+        symbols:
+        - mark:
+            shape: circle
+            fill-color: '#08CC2C'
+            stroke-color: '#000000'
+    - text:
+        label: ${dist_conte}
+        fill-color: '#000000'
+        font-family: Arial
+        font-size: 12
+        font-style: normal
+        font-weight: bold
+        placement: point
+        anchor: [0.5,0.0]
+        displacement: [0,5]
+  - name: Medium
+    scale: [1.6e6,3.2e8]
+    symbolizers:
+    - point:
+        size: 8
+        symbols:
+        - mark:
+            shape: circle
+            fill-color: '#CC3300'
+            stroke-color: '#000000'
+    - text:
+        label: ${dist_conte}
+        fill-color: '#000000'
+        font-family: Arial
+        font-size: 12
+        font-style: normal
+        font-weight: bold
+        placement: point
+        anchor: [0.5,0.0]
+        displacement: [0,5]      
+  - name: Small
+    scale: [3.2e8,max]
+    symbolizers:
+    - point:
+        size: 4
+        symbols:
+        - mark:
+            shape: circle
+            fill-color: '#084CCC'
+            stroke-color: '#000000'
+```                 
 
 
 **7. GRUPO CAPAS**
@@ -1166,17 +1256,111 @@ Adicionamos todas las capas que queremos adjuntar en nuetro grupo de capas
 
 **8.CONCLUSIONES**
 
-**•	Publicar un video en Loom [https://www.loom.com/] de mínimo 5 minutos y máximo 8 y adjuntar el url del mismo.
+**•	Publicar un video en Loom [https://www.loom.com/] de mínimo 5 minutos y máximo 8 y adjuntar el url del mismo.**
 
-
-![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/VIDEO.jpg)
 
 **Link del video**
 [https://www.loom.com/share/a0b28150ea384483b44562382994baba]
 
 
 
+**ACTIVIDADES OPCIONALES**
 
+
+**3. MAPA BASE CON MAPBOX**
+
+Obtendrá un punto extra si crea o personaliza un mapa base que pudiera utilizarse como base map para los resultados generados durante la tarea 2.
+
+Iniciamos mapbox
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/1m.jpg)
+
+
+Seleccionamos una base
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/3n.jpg)
+
+
+Cargamos la capa de localidades
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/4n.jpg)
+
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/5n.jpg)
+
+
+Cambiamos los colores a las localidades para diferenciar las áreas
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/6n.jpg)
+
+Modificamos los colores del mapa base para resaltar las zonas verdes, y los cuerpos de agua
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/7n.jpg)
+
+Compartimos nuestro mapa base como WMTS
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/8n.jpg)
+
+
+**Visualización de las capas con el mapa base**
+
+Ya que son capas completas , si ponemos todas las capas juntas en un solo archivo no se puede evidenciar la superposición sobre el mapa base, por lo tanto se muestran por grupos.
+
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/9n.jpg)
+
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/10n.jpg)
+
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/11n.jpg)
+
+
+**5. RASTER**
+
+**Obtendrá un punto extra si publica una o más capas de tipo ráster adicionales a las vectoriales de los puntos 4, 5 y 6.**
+
+Los contenedores de residuos pueden ser la solución para reducir los puntos criticos de acumulación, por lo tanto se elaboro un mapa de densidades basado en las distancias de los contenedores a los puntos criticos.
+
+
+**•	Cargar imágenes ráster**
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/1r.jpg)
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/2r.jpg)
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/3r.jpg)
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/4r.jpg)
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/5r.jpg)
+
+
+
+**•	Publicar la o las capas utilizando simbología basada en SLD**
+
+La clasificación se realizo teniendo en cuenta las distancias del punto critico al contenedor, y se represento siendo la tonalidad verde con la menor distancia, y aumentando con la tonalidad roja hasta la mayor distancia.
+
+Generarmos la simbologia en qgis
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/9r.jpg)
+
+
+Guardamos la simbologia como un archivo SLD
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/10r.jpg)
+
+
+Le asignamos la simbologia al raster en geoserver
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/6r.jpg)
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/7r.jpg)
+
+
+**LEYENDA**
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/8r.jpg)
 
 
 
