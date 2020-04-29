@@ -1364,7 +1364,44 @@ Le asignamos la simbologia al raster en geoserver
 
 
 
+**•	Incluir texto del SLD**
 
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:gml="http://www.opengis.net/gml" xmlns:ogc="http://www.opengis.net/ogc" version="1.0.0" xmlns:sld="http://www.opengis.net/sld">
+  <UserLayer>
+    <sld:LayerFeatureConstraints>
+      <sld:FeatureTypeConstraint/>
+    </sld:LayerFeatureConstraints>
+    <sld:UserStyle>
+      <sld:Name>Densidades_contenedores</sld:Name>
+      <sld:FeatureTypeStyle>
+        <sld:Rule>
+          <sld:RasterSymbolizer>
+            <sld:ChannelSelection>
+              <sld:GrayChannel>
+                <sld:SourceChannelName>1</sld:SourceChannelName>
+              </sld:GrayChannel>
+            </sld:ChannelSelection>
+            <sld:ColorMap type="ramp">
+              <sld:ColorMapEntry label="0" quantity="0" color="#1a9641"/>
+              <sld:ColorMapEntry label="521.274108886719" quantity="521.274108886719" color="#a6d96a"/>
+              <sld:ColorMapEntry label="1042.54821777344" quantity="1042.54821777344" color="#ffffc0"/>
+              <sld:ColorMapEntry label="1563.82232666016" quantity="1563.82232666016" color="#fdae61"/>
+              <sld:ColorMapEntry label="2085.09643554688" quantity="2085.09643554688" color="#d7191c"/>
+            </sld:ColorMap>
+          </sld:RasterSymbolizer>
+        </sld:Rule>
+      </sld:FeatureTypeStyle>
+    </sld:UserStyle>
+  </UserLayer>
+</StyledLayerDescriptor>
+```
+
+
+**URL DEL VISOR**
+
+[http://34.83.176.208:18080/geoserver/clase_2020_01/wms?service=WMS&version=1.1.0&request=GetMap&layers=clase_2020_01%3Ama_densidades_contenedores&bbox=958646.6955728859%2C904337.5290631293%2C1010094.3256417034%2C1026577.0981066397&width=330&height=768&srs=EPSG%3A3116&format=application/openlayers]
 
 
 
