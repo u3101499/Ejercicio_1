@@ -224,24 +224,46 @@ o	Capa de polígonos de los puntos críticos con las concentraciones de contened
 
 Para las dos capas de puntos que se implementa la simbología SLD, se utilizó el siguiente procedimiento:
 
-1. 1.	Se utilizo un estilo graduado con cuantiles iguales para clasificar la distancia de un recipiente al punto crítico de acumulación de residuos, el campo a clasificar será la distancia al recipiente más cercano.
+ a.	Se utilizo un estilo graduado con cuantiles iguales para clasificar la distancia de un recipiente al punto crítico de acumulación de residuos, el campo a clasificar será la distancia al recipiente más cercano.
 
 ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/30.jpg)
 
-2. 2.	Para clasificar los datos se tuvo en cuenta los valores máximos y mínimos, y además también se adecuo la categoría que cumple con las condiciones planteadas de que un recipiente que este a menos de 50m el cual es adecuado para que un usuario lo utilice sin restricción, también considerando que aquellos que estén a menos de 100 m pueden ser otra buena opción para los usuarios. 
+ b.	Para clasificar los datos se tuvo en cuenta los valores máximos y mínimos, y además también se adecuo la categoría que cumple con las condiciones planteadas de que un recipiente que este a menos de 50m el cual es adecuado para que un usuario lo utilice sin restricción, también considerando que aquellos que estén a menos de 100 m pueden ser otra buena opción para los usuarios. 
 
 ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/31.jpg)
 
-3. 3.	Se utilizo una paleta de colores que alterna tonalidades verdes y rojas, las cuales permiten identificar que a mayor distancia estará asociado un color rojo, y que irá disminuyendo hasta llegar a una menor distancia con tonalidad verde.
+ c.	Se utilizo una paleta de colores que alterna tonalidades verdes y rojas, las cuales permiten identificar que a mayor distancia estará asociado un color rojo, y que irá disminuyendo hasta llegar a una menor distancia con tonalidad verde.
 
 ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/32.jpg)
+
+
+**PROCESO CAPAS DE POLÍGONOS**
+
+a. Se utilizo un estilo graduado con cuantiles iguales para clasificar los polígonos de los puntos críticos de acumulación de residuos sólidos, que tienen mayor concentración de recipientes. El campo para utilizar es la sumatoria de los recipientes en el polígono (Join_count). 
+
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/30a.jpg)
+
+b. 2.	Para clasificar los datos se tuvo en cuenta los valores máximos y mínimos, estableciendo un criterio para establecer las áreas donde menos se concentran recipientes.
+
+c. 3.	Se utilizo una paleta de colores que alterna tonalidades entre el rango anaranjado y azul, y tonalidades naranjas las cuales permiten identificar que a mayor concentración estará asociado un color naranja, y que irá disminuyendo hasta llegar a una menor concentración con tonalidad azul.
+
+![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/30c.jpg)
 
 4. Leyendas
 
 Capa | Leyenda y visualización
 --- | ---
-Puntos Canecas | ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/leyenda_puntos_canecas.jpg)
-Puntos Contenedores | ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/leyenda_puntos_contenedores.jpg)
+ma_puntos_canecas | ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/leyenda_puntos_canecas.jpg)
+ma_puntos_contenedores | ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/leyenda_puntos_contenedores.jpg)
+ma_canecas_clip | ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/leyenda_poligono_canecas.jpg)
+ma_contenedores_clip | ![alt text](https://u3101499.github.io/Ejercicio_1/Tarea_2/Imagenes/leyenda_poligono_contenedores.jpg)
+
+
+
+
+
+
 
 
 
