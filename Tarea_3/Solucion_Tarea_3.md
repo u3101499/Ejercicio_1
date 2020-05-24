@@ -222,8 +222,6 @@ Procesamiento y análisis realizado a los datos
 Proceso de creación de las aplicaciones y la historia con las herramientas seleccionadas.
 Conclusiones del ejercicio desde el punto de vista temático.
 
-[https://www.loom.com/share/4da99c6c11c649aba726eefe3b893ec7]
-
-
+[https://www.loom.com/share/88ecd13cfdec4d1cbbff819d8ccb3755]
 
 
