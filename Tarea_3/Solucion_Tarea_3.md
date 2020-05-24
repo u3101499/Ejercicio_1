@@ -44,6 +44,20 @@ Barrios | Distribución de los barrios en Bogotá | [https://datosabiertos.bogot
 
 Mediante el uso del software Arcgis y Qgis, se realiza el geoprocesamiento de los datos.
 
-Cargamos la capa de niveles de vulnerabilidad
+Cargamos las capas de nivel de vulnerabilidad, lotes, barrios, y tabla de uso del suelo
 
 ![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/1.jpg)
+
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/2.jpg)
+
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/3.jpg)
+
+Se realiza un join de la tabla de uso del suelo con la capa de lotes, para obtener el uso del suelo por lote
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/4.jpg)
+
+
+
+
