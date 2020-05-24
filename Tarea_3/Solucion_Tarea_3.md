@@ -100,10 +100,45 @@ Para la capa de lotes comerciales, asignaremos a cada lote comercial su nivel de
 ![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/12.jpg)
 
 
+**3. CARTO **
+
+**Describir de forma detallada el procedimiento utilizado para publicar la aplicación.**
+
+Mediante la aplicación CARTO, se va a elaborar un mapa donde se visualizara la capa de barrios y su vulnerabilidad, relacionando la cantidad de lotes comerciales.
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/13.jpg)
 
 
+Cargamos nuestro shape
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/14.jpg)
 
 
+Creamos nuestro mapa
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/15.jpg)
+
+Asignamos un color a nuestro mapa base
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/16.jpg)
+
+Establecemos el parametro de vulnerabilidad como atributo principal
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/17.jpg)
+
+Se asigna una etiqueta para mostrar los atributos de los poligonos, donde se va a visualizar los nombres del barrio, el nivel de vulnerabilidad y la cantidad de lotes comerciales
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/18.jpg)
+
+Creamos una legenda, con 5 categorias que clasifican los porcentajes de 0 a 100 %, se asigna tonalidades naranjas, siendo las más claras aquellas con menor %.
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/19.jpg)
+
+Creamos los widgets, que nos permiten interactuar con nuestro mapa
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/20.jpg)
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/21.jpg)
 
 
 
