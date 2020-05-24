@@ -30,4 +30,10 @@ La llegada del COVID-19 ha generado un cambio a nivel mundial, en cuanto a las a
 
 [https://balsamiq.cloud/sy5iunj/psrxt5j]
 
+**Listado detallado de las fuentes de datos seleccionadas.**
+
+Capa | Descripción | Link
+--- | --- | ---
+Niveles de Vulnerabilidad | En el mapa podrá ubicar su ciudad y su zona para encontrar los resultados, los cuales se realizaron cruzando las características demográficas: edad de la población, nivel de pobreza, entre otros. |
+
 
