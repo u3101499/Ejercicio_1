@@ -203,7 +203,7 @@ Resultado
 
 [http://34.83.176.208/maps/32/edit]
 
-**5.PUBLICAR HISTORIA.*
+**5.PUBLICAR HISTORIA.**
 
 Publique una historia utilizando Slides.com ( https://slides.com/ ) donde se integren las aplicaciones creadas en los puntos 3 y 4 con elementos textuales y multimedia de tal forma que se explique de forma amable al usuario la temática y solución propuesta al trabajo desarrollado. ("Contar una historia")
 
