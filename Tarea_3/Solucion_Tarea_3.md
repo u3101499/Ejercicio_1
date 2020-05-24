@@ -146,7 +146,7 @@ Resultado
 
 **LINK**
 
-[https://u3101499.carto.com/builder/1201947e-9860-4c25-8d0a-a42c95a9a1ed/embed?state=%7B%22map%22%3A%7B%22ne%22%3A%5B4.546308224744384%2C-74.26860809326173%5D%2C%22sw%22%3A%5B4.765651753679886%2C-73.9479446411133%5D%2C%22center%22%3A%5B4.655988537587979%2C-74.10827636718751%5D%2C%22zoom%22%3A12%7D%2C%22widgets%22%3A%7B%22b804e80d-c317-418d-a1a9-7bdc361f8df6%22%3A%7B%22normalized%22%3Atrue%2C%22min%22%3A319%2C%22max%22%3A510.4%7D%2C%222ffda833-a51a-4144-aa00-390c12486ded%22%3A%7B%22normalized%22%3Atrue%7D%7D%7D]
+[https://u3101499.carto.com/builder/1201947e-9860-4c25-8d0a-a42c95a9a1ed/embed?state=%7B%22map%22%3A%7B%22ne%22%3A%5B4.546308224744384%2C-74.26860809326173%5D%2C%22sw%22%3A%5B4.765651753679886%2C-73.9479446411133%5D%2C%22center%22%3A%5B4.655988537587979%2C-74.10827636718751%5D%2C%22zoom%22%3A12%7D%2C%22widgets%22%3A%7B%22b804e80d-c317-418d-a1a9-7bdc361f8df6%22%3A%7B%22normalized%22%3Atrue%7D%2C%222ffda833-a51a-4144-aa00-390c12486ded%22%3A%7B%22normalized%22%3Atrue%7D%7D%7D]
 
 
 **4.GEONODE.**
@@ -202,5 +202,28 @@ Resultado
 **LINK**
 
 [http://34.83.176.208/maps/32/edit]
+
+**5.PUBLICAR HISTORIA.*
+
+Publique una historia utilizando Slides.com ( https://slides.com/ ) donde se integren las aplicaciones creadas en los puntos 3 y 4 con elementos textuales y multimedia de tal forma que se explique de forma amable al usuario la temática y solución propuesta al trabajo desarrollado. ("Contar una historia")
+
+**LINK**
+
+[https://slides.com/u3101499/deck#/]
+
+
+**6. CONCLUSIONES**
+
+Publicar un video en Loom ( https://www.loom.com/ ) de mínimo 5 minutos y máximo 8 y adjuntar el url del mismo.
+En el video describa brevemente lo siguiente:
+
+Problema planteado
+Procesamiento y análisis realizado a los datos
+Proceso de creación de las aplicaciones y la historia con las herramientas seleccionadas.
+Conclusiones del ejercicio desde el punto de vista temático.
+
+[https://www.loom.com/share/4da99c6c11c649aba726eefe3b893ec7]
+
+
 
 
