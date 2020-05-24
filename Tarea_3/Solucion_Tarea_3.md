@@ -58,6 +58,56 @@ Se realiza un join de la tabla de uso del suelo con la capa de lotes, para obten
 
 ![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/4.jpg)
 
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/5.jpg)
+
+
+Se procede a utilizar la herramienta de selección por atributos, para identificar todos los lotes que tengan un uso relacionado con actividades comerciales, las categorias son las siguientes:
+
+003 Comercio puntual NPH (No Propiedad Horizontal)
+004 Corredor comercial en NPH
+006 Centro comercial mediano NPH
+007 Centro comercial grande NPH
+039 Comercio puntual en PH
+040 Corredor comercial PH
+041 Centro comercial mediado PH
+042  Centro comercial grande PH
+094 Centro comercial pequeño NPH
+095 Centro comercial pequeño PH
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/6.jpg)
+
+Obtenemos una nueva capa, con los lotes comerciales
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/7.jpg)
+
+
+Cargamos la capa barrios
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/8.jpg)
+
+Se va a determinar la cantidad de poligonos comerciales presentes en los barrios utilizando la herramienta Spatial Join
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/9.jpg)
+
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/10.jpg)
+
+
+Para la capa de lotes comerciales, asignaremos a cada lote comercial su nivel de vulnerabilidad, con la herramienta Intersect
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/11.jpg)
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/12.jpg)
+
+
+
+
+
+
+
+
+
+
 
 
 
