@@ -34,6 +34,8 @@ La llegada del COVID-19 ha generado un cambio a nivel mundial, en cuanto a las a
 
 Capa | Descripción | Link
 --- | --- | ---
-Niveles de Vulnerabilidad | En el mapa podrá ubicar su ciudad y su zona para encontrar los resultados, los cuales se realizaron cruzando las características demográficas: edad de la población, nivel de pobreza, entre otros. |
-
+Niveles de Vulnerabilidad | En el mapa podrá ubicar su ciudad y su zona para encontrar los resultados, los cuales se realizaron cruzando las características demográficas: edad de la población, nivel de pobreza, entre otros. |[http://visor01.dane.gov.co:9000/visor-vulnerabilidad/]
+Lotes | Division Lotes prediales Bogotá | [https://datosabiertos.bogota.gov.co/dataset/mapa-de-referencia]
+Uso del Suelo | Tabla que relaciona los usos del suelo establecidos para los lotes en la ciudad de Bogotá | [https://datosabiertos.bogota.gov.co/dataset/mapa-de-referencia]
+Barrios | Distribución de los barrios en Bogotá | [https://datosabiertos.bogota.gov.co/dataset/mapa-de-referencia]
 
