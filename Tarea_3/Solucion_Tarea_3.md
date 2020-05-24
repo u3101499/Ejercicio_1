@@ -39,3 +39,11 @@ Lotes | Division Lotes prediales Bogotá | [https://datosabiertos.bogota.gov.co/
 Uso del Suelo | Tabla que relaciona los usos del suelo establecidos para los lotes en la ciudad de Bogotá | [https://datosabiertos.bogota.gov.co/dataset/mapa-de-referencia]
 Barrios | Distribución de los barrios en Bogotá | [https://datosabiertos.bogota.gov.co/dataset/mapa-de-referencia]
 
+
+**2.Procesamiento de datos**
+
+Mediante el uso del software Arcgis y Qgis, se realiza el geoprocesamiento de los datos.
+
+Cargamos la capa de niveles de vulnerabilidad
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/1.jpg)
