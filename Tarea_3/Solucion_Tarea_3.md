@@ -140,9 +140,67 @@ Creamos los widgets, que nos permiten interactuar con nuestro mapa
 
 ![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/21.jpg)
 
+Resultado
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/23.jpg)
+
+**LINK**
+
+[https://u3101499.carto.com/builder/1201947e-9860-4c25-8d0a-a42c95a9a1ed/embed?state=%7B%22map%22%3A%7B%22ne%22%3A%5B4.546308224744384%2C-74.26860809326173%5D%2C%22sw%22%3A%5B4.765651753679886%2C-73.9479446411133%5D%2C%22center%22%3A%5B4.655988537587979%2C-74.10827636718751%5D%2C%22zoom%22%3A12%7D%2C%22widgets%22%3A%7B%22b804e80d-c317-418d-a1a9-7bdc361f8df6%22%3A%7B%22normalized%22%3Atrue%2C%22min%22%3A319%2C%22max%22%3A510.4%7D%2C%222ffda833-a51a-4144-aa00-390c12486ded%22%3A%7B%22normalized%22%3Atrue%7D%7D%7D]
 
 
+**4.GEONODE.**
+
+**Describir de forma detallada el procedimiento utilizado para publicar la aplicación.**
+
+Cargamos la capa en formato ZIP, y procedemos a crear nuestro mapa, primero se crea el metadato
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/24.jpg)
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/25.jpg)
 
 
+Asignamos una nueva simbologia, mediante el programa QGIS, donde se clasificaran los lotes, por su vulnerabilidad, con una selección de tonalidades verdes, pastel y rojos. El archivos SLD de la simbologia se guarda.
+
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/26.jpg)
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/27.jpg)
+
+
+Seleccionamos el formato SLD en Geonode
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/28.jpg)
+
+Creamos un nombre para la simbologia
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/29.jpg)
+
+Copiamos el codigo SLD
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/30.jpg)
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/31.jpg)
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/32.jpg)
+
+
+Creamos los widgets para interactuar con nuestro mapa
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/33.jpg)
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/34.jpg)
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/35.jpg)
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/36.jpg)
+
+Resultado
+
+![alt text](https://github.com/u3101499/Ejercicio_1/blob/master/Tarea_3/Imagenes/37.jpg)
+
+**LINK**
+
+[http://34.83.176.208/maps/32/edit]
 
 
